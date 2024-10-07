@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Multimedia Web Experience</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Raleway', sans-serif;
+        }
+
+        h1 {
+            font-size: 4vh;
+            margin: 10px;
+        }
+
+        h2, h3 {
+            font-size: 3vh;
+        }
+
+        h4 {
+            font-size: 2.5vh;
+            padding: 10px;
+        }
+
+        p {
+            margin: 15px 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 600px;
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 50px 40px;
+            border-radius: 20px;
+            box-sizing: border-box;
+        }
+
+
+        img {
+            width: 100%;
+            display: block;
+            margin: 20px 0;
+        }
+
+        nav {
+            background-color: rgba(0, 0, 0, 0.6);
+            color: #FFD700;
+            padding: 5px 5px 5px 20px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+
+        header {
+            background: url('https://b.zmtcdn.com/data/collections/8ea321c04135aacaac89eddb10ef64bd_1675080687.jpg?fit=around|562.5:360&crop=562.5:360;*,*') no-repeat center center/cover;
+            color: white;
+            height: 100vh;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        button {
+            font-size: 2vh;
+            background: white;
+            border: 1px solid black;
+            padding: 15px 30px;
+            border-radius: 25px;
+            transition: 0.6s;
+        }
+
+        button:hover {
+            background-color: #FFD700;
+            border: 1px solid white;
+            color: black;
+        }
+
+        .intro, .menu-section {
+            padding: 5% 5%;
+            text-align: justify;
+        }
+
+        .img-left {
+            float: left;
+            margin-right: 5%;
+            max-width: 800px;
+            width: 100%;
+        }
+
+        .img-right {
+            float: right;
+            margin-left: 5%;
+            max-width: 800px;
+            width: 100%;
+        }
+
+        .menu-section {
+            clear: both;
+        }
+
+        blockquote {
+            font-style: italic;
+            color: #555;
+        }
+
+        video {
+            width: 100%;
+            margin: 20px 0;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <h3><a href="#">Vego</a></h3>
+    </nav>
+    <header>
+        <div class="container">
+            <h1>Welcome to Multimedia Page</h1><br>
+            <a href="#menu"><button>Discover Menu</button></a>
+        </div>
+    </header>
+    <div id="intro" class="intro">
+        <h2>Welcome to Vego Restaurant</h2>
+        <p>At Vego, we pride ourselves on serving fresh, locally sourced veg ingredients in a cozy, welcoming environment. Our chefs combine traditional and modern culinary techniques to bring you dishes that are full of flavor and made with love.</p>
+        <blockquote>"A recipe has no soul. You, as the cook, must bring soul to the recipe."<br> - Thomas Keller</blockquote>
+    </div>
+    <div id="menu" class="menu-section">
+        <h3>Specials: <b>Chef's Recommendations</b></h3>
+        <img class="img-right" src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fGRpbm5lcnxlbnwwfHx8fDE2MzA4NTg3NzM&ixlib=rb-1.2.1&q=80&w=400" alt="Chef's Special Dish">
+        <p>Our Chef's Recommendations feature unique and flavorful dishes that change with the seasons. Savor our seared salmon with herb butter, served with a side of roasted vegetables and creamy mashed potatoes.</p>
+        <blockquote>"Cooking is like love; it should be entered into with complete abandon or not at all." <br> - Harriet van Horne</blockquote>
+    </div>
+    <div class="menu-section">
+        <h3>Main Course: <b>Italian Delight</b></h3>
+        <img class="img-left" src="https://images.unsplash.com/photo-1529042410759-befb1204b2e6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fHBhc3RhfGVufDB8fHx8MTYzMDg1ODg0NQ&ixlib=rb-1.2.1&q=80&w=400" alt="Italian Pasta">
+        <p>Our signature Italian pasta dishes are crafted with handmade noodles and house-made sauces. Try our Fettuccine Alfredo or classic Spaghetti Bolognese, served with freshly grated Parmesan and a side of garlic bread.</p>
+        <blockquote>"The only thing I like better than talking about food is eating." <br> - John Walters</blockquote>
+    </div>
+    <div class="menu-section">
+        <h3>Dessert: <b>Chocolate Lava Cake</b></h3>
+        <img class="img-right" src="https://images.unsplash.com/photo-1551782450-a2132b4ba21d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGNob2NvbGF0ZXxlbnwwfHx8fDE2MzA4NTg4MjA&ixlib=rb-1.2.1&q=80&w=400" alt="Chocolate Lava Cake">
+        <p>Indulge in our rich, molten Chocolate Lava Cake, served warm with a scoop of vanilla ice cream. The perfect balance of sweet and decadent, this dessert will leave you wanting more.</p>
+        <blockquote>"Dessert is like a feel-good song, and the best ones make you dance." <br> - Chef Edward Lee</blockquote>
+    </div>
+    <div id="video" class="menu-section">
+        <h3>Video: Experience Our Ambiance</h3>
+        <video autoplay loop controls>
+            <source src="https://cdn.pixabay.com/video/2021/02/03/04/14/restaurant-5971749_960_720.mp4" type="video/mp4">
+        </video>
+    </div>
+    <footer id="contact">
+        <h3>Contact Us</h3>
+        <p>Gourmet Bistro, 123 Culinary Street, Flavor Town, Foodie World</p>
+        <p>Email: contact@gourmetbistro.com | Phone: +123-456-7890</p>
+    </footer>
+</body>
+</html>
